@@ -3,11 +3,11 @@ name: Install Python Dependencies
   on:
     push: 
       branches: 
-      -main 
+      - main 
 
   jobs:
     install-dependencies: 
-    runs-on: ubuntu-latest 
+      runs-on: ubuntu-latest 
 
     steps: 
       - name: 'Checkout code'
