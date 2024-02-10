@@ -1,4 +1,4 @@
-Name: Install Python Dependencies 
+name: Install Python Dependencies 
 
   on:
     push: 
